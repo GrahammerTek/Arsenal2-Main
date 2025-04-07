@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--FAL Type-->
+  <SoundDef>
+    <defName>HID_Shot_FAL</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GunSpecific/GTek_FAL</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_FAL_suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GunSpecific/Shot_GTEK_FAL_suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--M14 Type-->
+  <SoundDef>
+    <defName>HID_Shot_M14Type</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GunSpecific/GTek_M14</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--MP5 Type-->
+  <SoundDef>
+    <defName>HID_Shot_MP5Type</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GunSpecific/Shot_GTEK_MP5Type</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_MP510Type</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GunSpecific/GTek_MP510Type</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~60</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Crappy SMG-->
+  <SoundDef>
+    <defName>HID_Shot_UziMicro</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GunSpecific/Shot_GTEK_UziMicro</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--P90 Type-->
+  <SoundDef>
+    <defName>HID_Shot_P90Type</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GunSpecific/GTek_P90</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--M3 Spec Ops Gen 2-->
+  <SoundDef>
+    <defName>HID_Shot_M3SpecOpsGen2</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GunSpecific/Shot_GTEK_M3SpecOps</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

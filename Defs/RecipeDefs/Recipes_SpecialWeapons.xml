@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--Remington M870 Fieldmaster (sawed-off)-->
+  <RecipeDef>
+    <defName>Make_HIDGun_RemingtonM870Gun_SawnOff</defName>
+    <label>make Remington M870 Fieldmaster (sawed-off)</label>
+    <description>A simple pump-action hunting shotgun which has had both its barrel and stock cut down to decrease weight and bulk.</description>
+    <jobString>sawing Remington M870 Fieldmaster.</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <uiIconThing>HIDGun_RemingtonM870Gun_SawnOff</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HIDGun_RemingtonM870Gun</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HIDGun_RemingtonM870Gun</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HIDGun_RemingtonM870Gun_SawnOff>1</HIDGun_RemingtonM870Gun_SawnOff>
+      <WoodLog>5</WoodLog>
+      <Steel>5</Steel>
+    </products>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <!--Browning Pump Shotgun 10 Field (sawed-off)-->
+  <RecipeDef>
+    <defName>Make_HIDGun_BPS10Field_SawnOff</defName>
+    <label>make Browning Pump Shotgun 10 Field (sawed-off)</label>
+    <description>A heavy pump-action shotgun chambered for 10 gauge shells. Its barrel has been cut down to a shorter length to improve its close-quarters combat capabilities, though it sacrifices some range and accuracy.</description>
+    <jobString>sawing Browning Pump Shotgun 10 Field.</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <uiIconThing>HIDGun_BPS10Field_SawnOff</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HIDGun_BPS10Field</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HIDGun_BPS10Field</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HIDGun_BPS10Field_SawnOff>1</HIDGun_BPS10Field_SawnOff>
+      <Steel>5</Steel>
+    </products>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <!--Browning Auto-5 Hunter (sawed-off)-->
+  <RecipeDef>
+    <defName>Make_HIDGun_BrowningA5Gun_SawnOff</defName>
+    <label>make Browning Auto-5 Hunter (sawed-off)</label>
+    <description>An autoloading shotgun ready for hunting. Its barrel has been cut down to a shorter length to improve its close-quarters combat capabilities, though it sacrifices some range and accuracy.</description>
+    <jobString>sawing Browning Auto-5 Hunter.</jobString>
+    <workAmount>800</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <uiIconThing>HIDGun_BrowningA5Gun_SawnOff</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HIDGun_BrowningA5Gun</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HIDGun_BrowningA5Gun</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HIDGun_BrowningA5Gun_SawnOff>1</HIDGun_BrowningA5Gun_SawnOff>
+      <Steel>5</Steel>
+    </products>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+  <!--Glock 17 switched-->
+  <RecipeDef>
+    <defName>Make_HIDGun_Glock17A</defName>
+    <label>make Glock 17 switched</label>
+    <description>A sleek and lightweight polymer-framed 9mm pistol, like many others. Easy to shoot and has a high magazine capacity, it makes for a popular everyday civilian carry handgun. It can fire fully automatic thanks to a simple modification on the back of the slide.</description>
+    <jobString>switching Glock 17</jobString>
+    <workAmount>300</workAmount>
+    <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <effectWorking>Smelt</effectWorking>
+    <soundWorking>Recipe_Smith</soundWorking>
+    <uiIconThing>HIDGun_Glock17A</uiIconThing>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>HIDGun_Glock17S</li>
+            <li>HIDGun_Glock17S_Grn</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>ComponentIndustrial</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>HIDGun_Glock17S</li>
+        <li>HIDGun_Glock17S_Grn</li>
+        <li>ComponentIndustrial</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <products>
+      <HIDGun_Glock17A>1</HIDGun_Glock17A>
+    </products>
+    <recipeUsers>
+      <li>TableMachining</li>
+    </recipeUsers>
+    <workSkill>Crafting</workSkill>
+  </RecipeDef>
+</Defs>

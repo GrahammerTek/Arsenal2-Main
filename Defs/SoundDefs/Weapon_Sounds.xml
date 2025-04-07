@@ -1,0 +1,1073 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--2-Bore-->
+  <SoundDef>
+    <defName>HID_Shot_2BoreRifle</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK2Bore</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--9mm Para-->
+  <SoundDef>
+    <defName>HID_Shot_9mmPara</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK9mm</clipPath>
+          </li>
+        </grains>
+        <volumeRange>25~25</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_9mmPara_Modern</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK9mm_Modern</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~60</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_9mmParaSuppressed</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK9mmSuppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~15</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_9mmPara_SMG</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK9mmSMG</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_9mmParaSuppressed_SMG</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_9mmSMG_Suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--10mm Auto-->
+  <SoundDef>
+    <defName>HID_Shot_10mmAuto</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK10mm</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~30</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--20 Gauge-->
+  <SoundDef>
+    <defName>HID_Shot_20Gauge_NoPump</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GTek_20Gauge</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>65~65</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_20Gauge_Bolt</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>GTek_20Gauge</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>65~65</volumeRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--12 Gauge-->
+  <SoundDef>
+    <defName>HID_Shot_12Gauge</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK12GaA</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKShotgunPump</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_12Gauge_NoPump</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK12GaA</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_12Gauge_DoubleShot</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK12GaDoubleShot</clipPath>
+          </li>
+        </grains>
+        <volumeRange>30~30</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--10 Gauge-->
+  <SoundDef>
+    <defName>HID_Shot_10Gauge</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK10GaA</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKShotgunPump</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_10Gauge_NoPump</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK10GaA</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.22 LR-->
+  <SoundDef>
+    <defName>HID_Shot_22Caliber</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK22</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_22Caliber_Lever</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK22</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKLeverAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_22Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK22Suppressed</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_22Caliber_Single</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK22</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKSingleAction</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.38 Special-->
+  <SoundDef>
+    <defName>HID_Shot_38Special</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK38Special</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.45 ACP-->
+  <SoundDef>
+    <defName>HID_Shot_45ACP</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK45ACP</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_45ACP_SMG</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK45ACPSMG</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.50 BMG-->
+  <SoundDef>
+    <defName>HID_Shot_50BMG</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK50BMG</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_50BMGSuppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK50BMGSuppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.277 Fury-->
+  <SoundDef>
+    <defName>HID_Shot_277Fury_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK277FurySuppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_277Fury_Suppressed_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK277FurySuppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.338 Lapua Magnum-->
+  <SoundDef>
+    <defName>HID_Shot_338Lapua_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK338Lapua_Suppressed</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_338Lapua_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK338Lapua</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltActionMagnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.357 Magnum-->
+  <SoundDef>
+    <defName>HID_Shot_357Magnum</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK357Magnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_357Magnum_Lever</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK357Magnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKLeverAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_357Magnum_Single</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK357Magnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKSingleAction</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.380 ACP-->
+  <SoundDef>
+    <defName>HID_Shot_380ACP</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK380ACP</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~60</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--4.73mm Caseless-->
+  <SoundDef>
+    <defName>HID_Shot_473mmCaseless</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK473mm</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--5.45mm Soviet-->
+  <SoundDef>
+    <defName>HID_Shot_545mmSoviet</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_545Soviet</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--5.56mm-->
+  <SoundDef>
+    <defName>HID_Shot_556mmNATO</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK556mm</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_556mmNATO_Slow</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK556mm_Slow</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_556Suppressed</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_556_Suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_556mmNATO_Belt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_556Belt</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_556mmNATO_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK556mm</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_556mmNATO_Bolt_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_556_Suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>70~70</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--7.62mm NATO-->
+  <SoundDef>
+    <defName>HID_Shot_762mmNATO</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK762mm</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_762mmNATO_Belt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_762Belt</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_762mmNATO_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK762mm</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_762mmNATO_Bolt_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>GunSpecific/Shot_GTEK_FAL_suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~60</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--7.62mm Soviet-->
+  <SoundDef>
+    <defName>HID_Shot_762mmSoviet</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK762mmSoviet</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_762mmSoviet_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>2</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_762Soviet_Suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_762mmSoviet_Bolt_Suppressed</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipPath>GTek_762Soviet_Suppressed</clipPath>
+          </li>
+        </grains>
+        <volumeRange>55~55</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--XM8-->
+  <SoundDef>
+    <defName>HID_Shot_XM8Rifle</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKxm8</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Rocket Launcher-->
+  <SoundDef>
+    <defName>HID_Shot_RLauncher</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKRocketLaunch</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Launcher Sniper-->
+  <SoundDef>
+    <defName>HID_Shot_HVGrenadeLauncher</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKSniperGrenadeLauncher</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_HVGrenadeLauncher_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKSniperGrenadeLauncher</clipPath>
+          </li>
+        </grains>
+        <volumeRange>40~40</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltActionMagnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Thunder Pistol-->
+  <SoundDef>
+    <defName>HID_Shot_ThunderPistol</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderPistol</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Thunder Revolver-->
+  <SoundDef>
+    <defName>HID_Shot_ThunderRevolver</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderRevolver</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~15</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_ThunderRevolver_Single</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderRevolver</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~15</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKSingleAction</clipPath>
+          </li>
+        </grains>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Thunder Lever Gun-->
+  <SoundDef>
+    <defName>HID_Shot_ThunderLeverGun</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderRevolver</clipPath>
+          </li>
+        </grains>
+        <volumeRange>15~15</volumeRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKLeverAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--.30-06-->
+  <SoundDef>
+    <defName>HID_Shot_3006Springfield_Auto</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK3006Auto</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--40mm Grenade Launcher-->
+  <SoundDef>
+    <defName>HID_Shot_UGLauncher</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK40mmGL</clipPath>
+          </li>
+        </grains>
+        <volumeRange>60~60</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!--A bit hacky, but probably will work. Used for togglable recipes.-->
+  <ThingDef Name="HIDGun_MainWeaponBase" ParentName="BaseMakeableGun" Abstract="True">
+    <weaponTags>
+      <li>Gun</li>
+      <li>GTekArsenalGun</li>
+    </weaponTags>
+    <tradeTags>
+      <li>WeaponRanged</li>
+    </tradeTags>
+  </ThingDef>
+  <ThingDef Name="HIDGun_MainWeaponBase_Makeable" ParentName="HIDGun_MainWeaponBase" Abstract="True"></ThingDef>
+</Defs>

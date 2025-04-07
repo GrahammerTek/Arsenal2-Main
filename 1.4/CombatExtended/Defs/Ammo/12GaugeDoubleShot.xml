@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== AmmoSet ========================== -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12GaugeDoubleShot</defName>
+    <label>12 Gauge</label>
+    <ammoTypes>
+      <Ammo_12Gauge_Buck>Bullet_12GaugeDoubleShot_Buck</Ammo_12Gauge_Buck>
+      <Ammo_12Gauge_Slug>Bullet_12GaugeDoubleShot_Slug</Ammo_12Gauge_Slug>
+      <Ammo_12Gauge_Beanbag>Bullet_12GaugeDoubleShot_Beanbag</Ammo_12Gauge_Beanbag>
+      <Ammo_12Gauge_ElectroSlug>Bullet_12GaugeDoubleShot_ElectroSlug</Ammo_12Gauge_ElectroSlug>
+    </ammoTypes>
+    <similarTo>AmmoSet_Shotgun</similarTo>
+  </CombatExtended.AmmoSetDef>
+  <!-- ================== Projectiles ================== -->
+  <ThingDef ParentName="Base12GaugeBullet">
+    <defName>Bullet_12GaugeDoubleShot_Buck</defName>
+    <label>buckshot pellet</label>
+    <graphicData>
+      <texPath>Things/Projectile/Shotgun_Pellet</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <damageAmountBase>8</damageAmountBase>
+      <pelletCount>18</pelletCount>
+      <armorPenetrationSharp>4</armorPenetrationSharp>
+      <armorPenetrationBlunt>4.52</armorPenetrationBlunt>
+      <spreadMult>8.9</spreadMult>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="Base12GaugeBullet">
+    <defName>Bullet_12GaugeDoubleShot_Slug</defName>
+    <label>shotgun slug</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>114</speed>
+      <damageAmountBase>28</damageAmountBase>
+      <pelletCount>2</pelletCount>
+      <armorPenetrationSharp>6</armorPenetrationSharp>
+      <armorPenetrationBlunt>85.2</armorPenetrationBlunt>
+      <casingMoteDefname>Fleck_ShotgunShell_Green</casingMoteDefname>
+      <casingFilthDefname>Filth_ShotgunAmmoCasings_Green</casingFilthDefname>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="Base12GaugeBullet">
+    <defName>Bullet_12GaugeDoubleShot_Beanbag</defName>
+    <label>beanbag</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>30</speed>
+      <damageDef>Beanbag</damageDef>
+      <damageAmountBase>9</damageAmountBase>
+      <pelletCount>2</pelletCount>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>3.240</armorPenetrationBlunt>
+      <spreadMult>2</spreadMult>
+      <casingMoteDefname>Fleck_ShotgunShell_White</casingMoteDefname>
+      <casingFilthDefname>Filth_ShotgunAmmoCasings_White</casingFilthDefname>
+    </projectile>
+  </ThingDef>
+  <ThingDef ParentName="Base12GaugeBullet">
+    <defName>Bullet_12GaugeDoubleShot_ElectroSlug</defName>
+    <label>EMP slug</label>
+    <graphicData>
+      <texPath>Things/Projectile/Bullet_big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(68,210,215)</color>
+    </graphicData>
+    <projectile Class="CombatExtended.ProjectilePropertiesCE">
+      <speed>43</speed>
+      <damageDef>EMP</damageDef>
+      <damageAmountBase>12</damageAmountBase>
+      <pelletCount>2</pelletCount>
+      <armorPenetrationSharp>0</armorPenetrationSharp>
+      <armorPenetrationBlunt>0</armorPenetrationBlunt>
+      <empShieldBreakChance>0.2</empShieldBreakChance>
+      <casingMoteDefname>Fleck_ShotgunShell_Black</casingMoteDefname>
+      <casingFilthDefname>Filth_ShotgunAmmoCasings_Black</casingFilthDefname>
+    </projectile>
+  </ThingDef>
+</Defs>
