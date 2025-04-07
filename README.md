@@ -25,5 +25,3 @@ A: Sure thing, though I have a very specific taste in firearms so don't feel too
 Supported Mods:
 Muzzle Flash [Only with CE]
 Vanilla Expanded Framework [For extra optional settings]
-
-If you want to talk to me personally, contact grahammertek on Discord.
