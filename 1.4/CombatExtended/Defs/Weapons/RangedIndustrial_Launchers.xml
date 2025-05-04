@@ -208,7 +208,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.5</generateCommonality>
     <statBases>
-      <WorkToMake>32000</WorkToMake>
+      <WorkToMake>26000</WorkToMake>
       <SightsEfficiency>1.10</SightsEfficiency>
       <ShotSpread>0.1</ShotSpread>
       <SwayFactor>1.46</SwayFactor>
@@ -218,7 +218,7 @@
     </statBases>
     <costList>
       <Steel>55</Steel>
-      <ComponentIndustrial>7</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <weaponTags Inherit="False">
@@ -443,7 +443,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.5</generateCommonality>
     <statBases>
-      <WorkToMake>36000</WorkToMake>
+      <WorkToMake>31000</WorkToMake>
       <SightsEfficiency>2.24</SightsEfficiency>
       <ShotSpread>0.05</ShotSpread>
       <SwayFactor>1.79</SwayFactor>
@@ -459,7 +459,7 @@
     </equippedStatOffsets>
     <costList>
       <Steel>100</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <!--+2 for the advanced scope, +1 for night vision, +1 for recoil mitigation-->
       <Chemfuel>5</Chemfuel>
     </costList>
