@@ -1889,11 +1889,11 @@
       <ShotSpread>0.02</ShotSpread>
       <SwayFactor>2.20</SwayFactor>
       <Bulk>15.48</Bulk>
-      <WorkToMake>47000</WorkToMake>
+      <WorkToMake>43500</WorkToMake>
     </statBases>
     <costList>
       <Steel>115</Steel>
-      <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -2011,7 +2011,7 @@
       <ShotSpread>0.04</ShotSpread>
       <SwayFactor>2.27</SwayFactor>
       <Bulk>16.42</Bulk>
-      <WorkToMake>49000</WorkToMake>
+      <WorkToMake>46000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <!--PCA Advanced Scope stats-->
@@ -2021,7 +2021,7 @@
     </equippedStatOffsets>
     <costList>
       <Steel>120</Steel>
-      <ComponentIndustrial>12</ComponentIndustrial>
+      <ComponentIndustrial>10</ComponentIndustrial>
       <!--+2 for the advanced scope, +1 for the giga suppressor-->
       <Chemfuel>5</Chemfuel>
     </costList>
@@ -2133,14 +2133,14 @@
       <ShotSpread>0.03</ShotSpread>
       <SwayFactor>1.88</SwayFactor>
       <Bulk>14.37</Bulk>
-      <WorkToMake>45000</WorkToMake>
+      <WorkToMake>43000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <AimingDelayFactor>-0.10</AimingDelayFactor>
     </equippedStatOffsets>
     <costList>
       <Steel>100</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>

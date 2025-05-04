@@ -30,7 +30,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>51000</WorkToMake>
+      <WorkToMake>47500</WorkToMake>
       <Mass>12.01</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>2.12</SightsEfficiency>
@@ -54,7 +54,7 @@
     <costList>
       <Steel>95</Steel>
       <Chemfuel>15</Chemfuel>
-      <ComponentIndustrial>11</ComponentIndustrial>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -157,7 +157,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>43000</WorkToMake>
+      <WorkToMake>39500</WorkToMake>
       <Mass>5.10</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>1.10</SightsEfficiency>
@@ -175,7 +175,7 @@
     <costList>
       <Steel>65</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -282,7 +282,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>47500</WorkToMake>
+      <WorkToMake>44000</WorkToMake>
       <Mass>8.94</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>1.10</SightsEfficiency>
@@ -300,7 +300,7 @@
     <costList>
       <Steel>75</Steel>
       <Chemfuel>15</Chemfuel>
-      <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -408,7 +408,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <statBases>
-      <WorkToMake>43000</WorkToMake>
+      <WorkToMake>37000</WorkToMake>
       <Mass>4.49</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>1.10</SightsEfficiency>
@@ -426,7 +426,7 @@
     <costList>
       <Steel>55</Steel>
       <Chemfuel>15</Chemfuel>
-      <ComponentIndustrial>9</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -534,7 +534,7 @@
       <li>RangedHeavy</li>
     </weaponClasses>
     <statBases>
-      <WorkToMake>52500</WorkToMake>
+      <WorkToMake>44500</WorkToMake>
       <Mass>7.53</Mass>
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>2.12</SightsEfficiency>
@@ -558,7 +558,7 @@
     <costList>
       <Steel>70</Steel>
       <Chemfuel>10</Chemfuel>
-      <ComponentIndustrial>11</ComponentIndustrial>
+      <ComponentIndustrial>9</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
