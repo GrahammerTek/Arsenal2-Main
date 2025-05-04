@@ -18,7 +18,7 @@
       <RangedWeapon_Cooldown>0.51</RangedWeapon_Cooldown>
       <SightsEfficiency>1.88</SightsEfficiency>
       <ShotSpread>0.14</ShotSpread>
-      <SwayFactor>1.73</SwayFactor>
+      <SwayFactor>1.05</SwayFactor>
       <Bulk>3.30</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -125,9 +125,9 @@
       <RangedWeapon_Cooldown>0.46</RangedWeapon_Cooldown>
       <SightsEfficiency>1.88</SightsEfficiency>
       <ShotSpread>0.13</ShotSpread>
-      <SwayFactor>2.03</SwayFactor>
+      <SwayFactor>1.23</SwayFactor>
       <Bulk>3.81</Bulk>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>7500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>CE_Sidearm</li>
@@ -139,7 +139,7 @@
       <li>RangedLight</li>
     </weaponClasses>
     <costList>
-      <Steel>35</Steel>
+      <Steel>30</Steel>
       <ComponentIndustrial>3</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
@@ -235,7 +235,7 @@
       <RangedWeapon_Cooldown>0.52</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>0.68</SwayFactor>
+      <SwayFactor>0.41</SwayFactor>
       <Bulk>1.65</Bulk>
       <WorkToMake>4500</WorkToMake>
     </statBases>
@@ -346,7 +346,7 @@
       <RangedWeapon_Cooldown>0.89</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.32</SwayFactor>
+      <SwayFactor>0.79</SwayFactor>
       <Bulk>2.82</Bulk>
       <WorkToMake>3500</WorkToMake>
     </statBases>
@@ -457,7 +457,7 @@
       <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.01</SwayFactor>
+      <SwayFactor>0.61</SwayFactor>
       <Bulk>2.22</Bulk>
       <WorkToMake>5000</WorkToMake>
     </statBases>
@@ -566,7 +566,7 @@
       <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.01</SwayFactor>
+      <SwayFactor>0.61</SwayFactor>
       <Bulk>2.22</Bulk>
       <WorkToMake>5000</WorkToMake>
       <SellPriceFactor>1.5</SellPriceFactor>
@@ -678,7 +678,7 @@
       <RangedWeapon_Cooldown>0.52</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.37</SwayFactor>
+      <SwayFactor>0.82</SwayFactor>
       <Bulk>2.67</Bulk>
       <WorkToMake>5500</WorkToMake>
     </statBases>
@@ -786,7 +786,7 @@
       <RangedWeapon_Cooldown>0.51</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.14</ShotSpread>
-      <SwayFactor>1.78</SwayFactor>
+      <SwayFactor>1.07</SwayFactor>
       <Bulk>3.56</Bulk>
       <WorkToMake>5500</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -898,7 +898,7 @@
       <RangedWeapon_Cooldown>0.49</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.53</SwayFactor>
+      <SwayFactor>0.92</SwayFactor>
       <Bulk>3.08</Bulk>
       <WorkToMake>5500</WorkToMake>
     </statBases>
@@ -1008,7 +1008,7 @@
       <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.41</SwayFactor>
+      <SwayFactor>0.85</SwayFactor>
       <Bulk>2.92</Bulk>
       <WorkToMake>4500</WorkToMake>
     </statBases>
@@ -1116,7 +1116,7 @@
       <RangedWeapon_Cooldown>0.48</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.41</SwayFactor>
+      <SwayFactor>0.85</SwayFactor>
       <Bulk>2.92</Bulk>
       <WorkToMake>4500</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -1225,7 +1225,7 @@
       <RangedWeapon_Cooldown>0.49</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>1.19</SwayFactor>
+      <SwayFactor>0.71</SwayFactor>
       <Bulk>2.43</Bulk>
       <WorkToMake>5000</WorkToMake>
     </statBases>
@@ -1335,7 +1335,7 @@
       <RangedWeapon_Cooldown>0.50</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>0.77</SwayFactor>
+      <SwayFactor>0.46</SwayFactor>
       <Bulk>1.76</Bulk>
       <WorkToMake>4500</WorkToMake>
     </statBases>
@@ -1445,7 +1445,7 @@
       <RangedWeapon_Cooldown>0.51</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>0.20</SwayFactor>
+      <SwayFactor>0.41</SwayFactor>
       <Bulk>1.60</Bulk>
       <WorkToMake>5500</WorkToMake>
     </statBases>
@@ -1565,7 +1565,7 @@
       <RangedWeapon_Cooldown>0.49</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.25</SwayFactor>
+      <SwayFactor>0.75</SwayFactor>
       <Bulk>2.67</Bulk>
       <WorkToMake>6000</WorkToMake>
     </statBases>
@@ -1687,7 +1687,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.04</SwayFactor>
+      <SwayFactor>0.62</SwayFactor>
       <Bulk>2.16</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -1787,7 +1787,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.04</SwayFactor>
+      <SwayFactor>0.62</SwayFactor>
       <Bulk>2.17</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -1888,7 +1888,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.04</SwayFactor>
+      <SwayFactor>0.62</SwayFactor>
       <Bulk>2.17</Bulk>
       <WorkToMake>7000</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -1994,7 +1994,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.36</SwayFactor>
+      <SwayFactor>0.72</SwayFactor>
       <Bulk>2.33</Bulk>
       <WorkToMake>8000</WorkToMake>
     </statBases>
@@ -2099,7 +2099,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.06</SwayFactor>
+      <SwayFactor>0.64</SwayFactor>
       <Bulk>2.06</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -2199,7 +2199,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.96</SwayFactor>
+      <SwayFactor>0.58</SwayFactor>
       <Bulk>1.84</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -2299,7 +2299,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
+      <SwayFactor>0.52</SwayFactor>
       <Bulk>1.83</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -2625,7 +2625,7 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>0.92</SwayFactor>
       <Bulk>5.59</Bulk>
-      <WorkToMake>21000</WorkToMake>
+      <WorkToMake>24500</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
     </statBases>
     <weaponTags>
@@ -2637,7 +2637,7 @@
     </weaponClasses>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -2734,7 +2734,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.96</SwayFactor>
+      <SwayFactor>0.58</SwayFactor>
       <Bulk>1.96</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -2829,7 +2829,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.96</SwayFactor>
+      <SwayFactor>0.57</SwayFactor>
       <Bulk>2.05</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -2929,7 +2929,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.95</SwayFactor>
+      <SwayFactor>0.57</SwayFactor>
       <Bulk>2.03</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -3034,7 +3034,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.13</SwayFactor>
+      <SwayFactor>0.68</SwayFactor>
       <Bulk>2.16</Bulk>
       <WorkToMake>8500</WorkToMake>
     </statBases>
@@ -3136,7 +3136,7 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.67</SwayFactor>
+      <SwayFactor>0.40</SwayFactor>
       <Bulk>1.52</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -3237,7 +3237,7 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.10</SwayFactor>
+      <SwayFactor>0.66</SwayFactor>
       <Bulk>2.22</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -3338,7 +3338,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.13</SwayFactor>
+      <SwayFactor>0.68</SwayFactor>
       <Bulk>2.22</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -3438,7 +3438,7 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.20</SwayFactor>
+      <SwayFactor>0.72</SwayFactor>
       <Bulk>2.48</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -3538,7 +3538,7 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.07</SwayFactor>
+      <SwayFactor>0.64</SwayFactor>
       <Bulk>2.10</Bulk>
       <WorkToMake>7000</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -3639,7 +3639,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.20</SwayFactor>
+      <SwayFactor>0.72</SwayFactor>
       <Bulk>2.10</Bulk>
       <WorkToMake>7000</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -3740,7 +3740,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.84</SwayFactor>
+      <SwayFactor>0.50</SwayFactor>
       <Bulk>1.91</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -3840,7 +3840,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.52</SwayFactor>
+      <SwayFactor>0.91</SwayFactor>
       <Bulk>3.17</Bulk>
       <WorkToMake>8000</WorkToMake>
     </statBases>
@@ -3939,7 +3939,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.52</SwayFactor>
+      <SwayFactor>0.91</SwayFactor>
       <Bulk>3.17</Bulk>
       <WorkToMake>4500</WorkToMake>
     </statBases>
@@ -4043,7 +4043,7 @@
       <RangedWeapon_Cooldown>0.41</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.50</SwayFactor>
+      <SwayFactor>0.30</SwayFactor>
       <Bulk>1.29</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -4145,9 +4145,9 @@
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.03</SwayFactor>
+      <SwayFactor>0.62</SwayFactor>
       <Bulk>2.29</Bulk>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>6500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -4161,7 +4161,7 @@
     </weaponClasses>
     <costList>
       <Steel>25</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -4245,9 +4245,9 @@
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.23</SwayFactor>
+      <SwayFactor>0.74</SwayFactor>
       <Bulk>2.48</Bulk>
-      <WorkToMake>7500</WorkToMake>
+      <WorkToMake>6500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -4261,7 +4261,7 @@
     </weaponClasses>
     <costList>
       <Steel>30</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -4349,9 +4349,9 @@
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.46</SwayFactor>
+      <SwayFactor>0.88</SwayFactor>
       <Bulk>3.50</Bulk>
-      <WorkToMake>9000</WorkToMake>
+      <WorkToMake>8000</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
     </statBases>
     <equippedStatOffsets>
@@ -4369,7 +4369,7 @@
     </weaponClasses>
     <costList>
       <Steel>25</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -4448,7 +4448,7 @@
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.92</SwayFactor>
+      <SwayFactor>0.55</SwayFactor>
       <Bulk>1.94</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -4569,7 +4569,7 @@
       <RangedWeapon_Cooldown>0.42</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.53</SwayFactor>
+      <SwayFactor>0.32</SwayFactor>
       <Bulk>1.31</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -4731,7 +4731,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.89</SwayFactor>
+      <SwayFactor>0.53</SwayFactor>
       <Bulk>1.92</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -4870,9 +4870,9 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.50</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.71</SwayFactor>
+      <SwayFactor>0.42</SwayFactor>
       <Bulk>1.53</Bulk>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -4886,7 +4886,7 @@
     </weaponClasses>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -4970,7 +4970,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.93</SwayFactor>
+      <SwayFactor>0.56</SwayFactor>
       <Bulk>1.95</Bulk>
       <WorkToMake>7000</WorkToMake>
     </statBases>
@@ -5069,7 +5069,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.97</SwayFactor>
+      <SwayFactor>0.58</SwayFactor>
       <Bulk>1.93</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -5168,7 +5168,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.92</SwayFactor>
+      <SwayFactor>0.55</SwayFactor>
       <Bulk>2.04</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -5295,7 +5295,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.13</SwayFactor>
+      <SwayFactor>0.68</SwayFactor>
       <Bulk>2.54</Bulk>
       <WorkToMake>25000</WorkToMake>
     </statBases>
@@ -5399,7 +5399,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.84</SwayFactor>
+      <SwayFactor>0.50</SwayFactor>
       <Bulk>1.85</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -5504,7 +5504,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.85</SwayFactor>
+      <SwayFactor>0.51</SwayFactor>
       <Bulk>1.85</Bulk>
       <WorkToMake>8500</WorkToMake>
     </statBases>
@@ -5601,11 +5601,11 @@
     </recipeMaker>
     <statBases>
       <Mass>0.6</Mass>
-      <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+      <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.90</SwayFactor>
-      <Bulk>2.0</Bulk>
+      <SwayFactor>0.54</SwayFactor>
+      <Bulk>2.08</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
     <weaponTags>
@@ -5704,7 +5704,7 @@
       <RangedWeapon_Cooldown>0.40</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.90</SwayFactor>
+      <SwayFactor>0.54</SwayFactor>
       <Bulk>1.95</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -5809,7 +5809,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.11</ShotSpread>
-      <SwayFactor>0.54</SwayFactor>
+      <SwayFactor>1.08</SwayFactor>
       <Bulk>4.08</Bulk>
       <WorkToMake>9000</WorkToMake>
     </statBases>
@@ -5913,7 +5913,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.19</SwayFactor>
+      <SwayFactor>0.72</SwayFactor>
       <Bulk>2.40</Bulk>
       <WorkToMake>7500</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
@@ -6015,9 +6015,9 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.58</SwayFactor>
+      <SwayFactor>0.95</SwayFactor>
       <Bulk>2.73</Bulk>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToMake>9500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>Autopistol</li>
@@ -6032,7 +6032,7 @@
     </weaponClasses>
     <costList>
       <Steel>35</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -6119,9 +6119,9 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>0.48</SwayFactor>
+      <SwayFactor>0.95</SwayFactor>
       <Bulk>2.73</Bulk>
-      <WorkToMake>10500</WorkToMake>
+      <WorkToMake>11000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <!--Because laser-->
@@ -6141,7 +6141,7 @@
     </weaponClasses>
     <costList>
       <Steel>35</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -6224,9 +6224,9 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.16</ShotSpread>
-      <SwayFactor>1.55</SwayFactor>
+      <SwayFactor>0.93</SwayFactor>
       <Bulk>2.73</Bulk>
-      <WorkToMake>8000</WorkToMake>
+      <WorkToMake>9500</WorkToMake>
       <SellPriceFactor>1.5</SellPriceFactor>
     </statBases>
     <weaponTags>
@@ -6242,7 +6242,7 @@
     </weaponClasses>
     <costList>
       <Steel>35</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Gold>5</Gold>
     </costList>
     <verbs>
@@ -6330,9 +6330,9 @@
       <RangedWeapon_Cooldown>0.41</RangedWeapon_Cooldown>
       <SightsEfficiency>0.80</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.29</SwayFactor>
+      <SwayFactor>0.78</SwayFactor>
       <Bulk>2.46</Bulk>
-      <WorkToMake>8500</WorkToMake>
+      <WorkToMake>10000</WorkToMake>
       <SellPriceFactor>1</SellPriceFactor>
     </statBases>
     <weaponTags>
@@ -6348,7 +6348,7 @@
     </weaponClasses>
     <costList>
       <Steel>30</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -6432,7 +6432,7 @@
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.73</SwayFactor>
+      <SwayFactor>0.44</SwayFactor>
       <Bulk>1.57</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -6530,7 +6530,7 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
+      <SwayFactor>0.52</SwayFactor>
       <Bulk>1.91</Bulk>
       <WorkToMake>7500</WorkToMake>
     </statBases>
@@ -6669,9 +6669,9 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.70</SwayFactor>
+      <SwayFactor>0.42</SwayFactor>
       <Bulk>1.65</Bulk>
-      <WorkToMake>7500</WorkToMake>
+      <WorkToMake>6500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>Autopistol</li>
@@ -6685,7 +6685,7 @@
     </weaponClasses>
     <costList>
       <Steel>15</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -6770,9 +6770,9 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>0.87</SwayFactor>
+      <SwayFactor>0.52</SwayFactor>
       <Bulk>2.06</Bulk>
-      <WorkToMake>7500</WorkToMake>
+      <WorkToMake>7000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>Autopistol</li>
@@ -6787,7 +6787,7 @@
     </weaponClasses>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -6872,9 +6872,9 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.70</SwayFactor>
+      <SwayFactor>0.42</SwayFactor>
       <Bulk>1.55</Bulk>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -6888,7 +6888,7 @@
     </weaponClasses>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -6974,7 +6974,7 @@
       <ShotSpread>0.17</ShotSpread>
       <SwayFactor>0.76</SwayFactor>
       <Bulk>2.85</Bulk>
-      <WorkToMake>7500</WorkToMake>
+      <WorkToMake>6500</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <HuntingStealth>0.5</HuntingStealth>
@@ -6990,7 +6990,7 @@
     </weaponClasses>
     <costList>
       <Steel>30</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -7070,9 +7070,9 @@
       <RangedWeapon_Cooldown>0.38</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.19</ShotSpread>
-      <SwayFactor>0.73</SwayFactor>
+      <SwayFactor>0.44</SwayFactor>
       <Bulk>1.55</Bulk>
-      <WorkToMake>7000</WorkToMake>
+      <WorkToMake>6000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -7086,7 +7086,7 @@
     </weaponClasses>
     <costList>
       <Steel>20</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -7169,7 +7169,7 @@
       <ShotSpread>0.11</ShotSpread>
       <SwayFactor>0.80</SwayFactor>
       <Bulk>5.46</Bulk>
-      <WorkToMake>16000</WorkToMake>
+      <WorkToMake>19500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -7183,7 +7183,7 @@
     <costList>
       <Steel>35</Steel>
       <WoodLog>5</WoodLog>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -7260,7 +7260,7 @@
       <RangedWeapon_Cooldown>0.90</RangedWeapon_Cooldown>
       <SightsEfficiency>0.50</SightsEfficiency>
       <ShotSpread>0.2</ShotSpread>
-      <SwayFactor>1.09</SwayFactor>
+      <SwayFactor>0.66</SwayFactor>
       <Bulk>2.79</Bulk>
       <WorkToMake>3000</WorkToMake>
       <MeleeCounterParryBonus>0.16</MeleeCounterParryBonus>
@@ -7383,9 +7383,9 @@
       <RangedWeapon_Cooldown>0.94</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.18</ShotSpread>
-      <SwayFactor>0.66</SwayFactor>
+      <SwayFactor>0.40</SwayFactor>
       <Bulk>1.52</Bulk>
-      <WorkToMake>3000</WorkToMake>
+      <WorkToMake>4000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>

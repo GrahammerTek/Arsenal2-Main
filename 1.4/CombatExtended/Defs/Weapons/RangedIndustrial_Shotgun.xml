@@ -41,10 +41,10 @@
       <SwayFactor>1.48</SwayFactor>
       <Bulk>11.43</Bulk>
       <SightsEfficiency>1</SightsEfficiency>
-      <WorkToMake>10500</WorkToMake>
+      <WorkToMake>15000</WorkToMake>
     </statBases>
     <costList>
-      <Steel>55</Steel>
+      <Steel>60</Steel>
       <WoodLog>10</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -158,10 +158,10 @@
       <SwayFactor>1.22</SwayFactor>
       <Bulk>9.27</Bulk>
       <SightsEfficiency>1</SightsEfficiency>
-      <WorkToMake>9500</WorkToMake>
+      <WorkToMake>13500</WorkToMake>
     </statBases>
     <costList>
-      <Steel>45</Steel>
+      <Steel>50</Steel>
       <WoodLog>10</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -303,10 +303,10 @@
       <SwayFactor>1.27</SwayFactor>
       <Bulk>9.02</Bulk>
       <SightsEfficiency>1</SightsEfficiency>
-      <WorkToMake>14000</WorkToMake>
+      <WorkToMake>22500</WorkToMake>
     </statBases>
     <costList>
-      <Steel>50</Steel>
+      <Steel>60</Steel>
       <WoodLog>10</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -419,10 +419,10 @@
       <SwayFactor>0.80</SwayFactor>
       <Bulk>5.56</Bulk>
       <SightsEfficiency>0.70</SightsEfficiency>
-      <WorkToMake>11500</WorkToMake>
+      <WorkToMake>17500</WorkToMake>
     </statBases>
     <costList>
-      <Steel>35</Steel>
+      <Steel>40</Steel>
       <WoodLog>5</WoodLog>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
@@ -531,7 +531,7 @@
     <soundInteract>Interact_Rifle</soundInteract>
     <generateCommonality>0.3</generateCommonality>
     <statBases>
-      <WorkToMake>12000</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
       <Mass>2.77</Mass>
       <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
       <SightsEfficiency>1.00</SightsEfficiency>
@@ -544,7 +544,7 @@
     </weaponClasses>
     <costList>
       <Chemfuel>10</Chemfuel>
-      <Steel>45</Steel>
+      <Steel>50</Steel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <verbs>
@@ -2316,11 +2316,11 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>1.48</SwayFactor>
       <Bulk>8.20</Bulk>
-      <WorkToMake>18500</WorkToMake>
+      <WorkToMake>22000</WorkToMake>
     </statBases>
     <costList>
       <Steel>55</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker>
@@ -2427,11 +2427,11 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>1.48</SwayFactor>
       <Bulk>10.41</Bulk>
-      <WorkToMake>17000</WorkToMake>
+      <WorkToMake>20500</WorkToMake>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker IsNull="True" />
@@ -2532,12 +2532,12 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>1.23</SwayFactor>
       <Bulk>8.20</Bulk>
-      <WorkToMake>15000</WorkToMake>
+      <WorkToMake>18500</WorkToMake>
     </statBases>
     <costList>
-      <Steel>45</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
-      <Chemfuel>10</Chemfuel>
+      <Steel>50</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+      <Chemfuel>5</Chemfuel>
     </costList>
     <recipeMaker IsNull="True">
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -2631,11 +2631,11 @@
       <ShotSpread>0.11</ShotSpread>
       <SwayFactor>1.81</SwayFactor>
       <Bulk>13.10</Bulk>
-      <WorkToMake>15500</WorkToMake>
+      <WorkToMake>19000</WorkToMake>
     </statBases>
     <costList>
       <Steel>65</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <recipeMaker>
@@ -2742,7 +2742,7 @@
       <ShotSpread>0.12</ShotSpread>
       <SwayFactor>1.60</SwayFactor>
       <Bulk>11.50</Bulk>
-      <WorkToMake>21000</WorkToMake>
+      <WorkToMake>23000</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <AimingAccuracy>0.05</AimingAccuracy>
@@ -2750,7 +2750,7 @@
     </equippedStatOffsets>
     <costList>
       <Steel>60</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker IsNull="True">
@@ -2862,11 +2862,11 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>1.39</SwayFactor>
       <Bulk>8.89</Bulk>
-      <WorkToMake>19500</WorkToMake>
+      <WorkToMake>23000</WorkToMake>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker>
@@ -2972,11 +2972,11 @@
       <ShotSpread>0.12</ShotSpread>
       <SwayFactor>1.51</SwayFactor>
       <Bulk>12.10</Bulk>
-      <WorkToMake>15500</WorkToMake>
+      <WorkToMake>18000</WorkToMake>
     </statBases>
     <costList>
       <Steel>55</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <recipeMaker>
@@ -3082,11 +3082,11 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>1.12</SwayFactor>
       <Bulk>8.50</Bulk>
-      <WorkToMake>14000</WorkToMake>
+      <WorkToMake>16500</WorkToMake>
     </statBases>
     <costList>
       <Steel>45</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <recipeMaker IsNull="True"></recipeMaker>
@@ -3188,11 +3188,11 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>1.33</SwayFactor>
       <Bulk>10.16</Bulk>
-      <WorkToMake>16500</WorkToMake>
+      <WorkToMake>20000</WorkToMake>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker>
@@ -3299,11 +3299,11 @@
       <ShotSpread>0.12</ShotSpread>
       <SwayFactor>1.55</SwayFactor>
       <Bulk>11.73</Bulk>
-      <WorkToMake>17500</WorkToMake>
+      <WorkToMake>21000</WorkToMake>
     </statBases>
     <costList>
       <Steel>60</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker IsNull="True">
@@ -3642,11 +3642,11 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>1.49</SwayFactor>
       <Bulk>10.66</Bulk>
-      <WorkToMake>32000</WorkToMake>
+      <WorkToMake>38500</WorkToMake>
     </statBases>
     <costList>
       <Steel>55</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <Chemfuel>15</Chemfuel>
     </costList>
     <recipeMaker>
