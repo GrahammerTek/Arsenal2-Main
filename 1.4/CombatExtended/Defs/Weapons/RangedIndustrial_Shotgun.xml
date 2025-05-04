@@ -2835,10 +2835,10 @@
       </li>
     </modExtensions>
   </ThingDef>
-  <!--M1014-->
+  <!--Benelli M1014-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_M1014Gun</defName>
-    <label>M1014</label>
+    <label>Benelli M1014</label>
     <description>A semi-automatic combat shotgun, it fires quickly between shots. Very lethal in close-quarters.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/M1014</texPath>
@@ -2856,34 +2856,38 @@
       <li>GTEK_M1014</li>
     </weaponTags>
     <statBases>
-      <Mass>3.82</Mass>
+      <Mass>4.09</Mass>
       <RangedWeapon_Cooldown>0.39</RangedWeapon_Cooldown>
-      <SightsEfficiency>1.00</SightsEfficiency>
+      <SightsEfficiency>1.10</SightsEfficiency>
       <ShotSpread>0.14</ShotSpread>
-      <SwayFactor>1.39</SwayFactor>
+      <SwayFactor>1.42</SwayFactor>
       <Bulk>8.89</Bulk>
-      <WorkToMake>19500</WorkToMake>
+      <WorkToMake>21000</WorkToMake>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
-    <recipeMaker>
-      <researchPrerequisite>GasOperation</researchPrerequisite>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite Inherit="false" />
+      <researchPrerequisites>
+        <li>GasOperation</li>
+        <li>CE_SimpleNV</li>
+      </researchPrerequisites>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
       <displayPriority>430</displayPriority>
     </recipeMaker>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>2.44</recoilAmount>
+        <recoilAmount>2.36</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_12Gauge_Buck</defaultProjectile>
-        <warmupTime>0.6</warmupTime>
-        <range>16</range>
+        <warmupTime>0.5</warmupTime>
+        <range>20</range>
         <soundCast>HID_Shot_12Gauge_NoPump</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
