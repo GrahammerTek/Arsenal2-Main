@@ -24,7 +24,7 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <verbs>
@@ -131,7 +131,7 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -241,7 +241,7 @@
     </statBases>
     <costList>
       <Steel>45</Steel>
-      <ComponentIndustrial>1</ComponentIndustrial>
+      <ComponentIndustrial>2</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <verbs>
@@ -347,7 +347,7 @@
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <WoodLog>10</WoodLog>
     </costList>
     <verbs>
@@ -454,7 +454,7 @@
     </statBases>
     <costList>
       <Steel>45</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>3</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <verbs>

@@ -26,7 +26,7 @@
       <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.15</ShotSpread>
-      <SwayFactor>1.19</SwayFactor>
+      <SwayFactor>0.71</SwayFactor>
       <Bulk>2.40</Bulk>
       <WorkToMake>24000</WorkToMake>
     </statBases>
@@ -130,7 +130,7 @@
       <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
       <SightsEfficiency>0.70</SightsEfficiency>
       <ShotSpread>0.17</ShotSpread>
-      <SwayFactor>1.29</SwayFactor>
+      <SwayFactor>0.80</SwayFactor>
       <Bulk>2.70</Bulk>
       <WorkToMake>27500</WorkToMake>
     </statBases>
@@ -241,7 +241,7 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>0.84</SwayFactor>
       <Bulk>5.46</Bulk>
-      <WorkToMake>29000</WorkToMake>
+      <WorkToMake>32500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
@@ -258,7 +258,7 @@
     <costList>
       <Steel>40</Steel>
       <Chemfuel>5</Chemfuel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1359,7 +1359,7 @@
       <ShotSpread>0.11</ShotSpread>
       <SwayFactor>1.35</SwayFactor>
       <Bulk>9.60</Bulk>
-      <WorkToMake>28000</WorkToMake>
+      <WorkToMake>29000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -1473,7 +1473,7 @@
       <ShotSpread>0.18</ShotSpread>
       <SwayFactor>1.10</SwayFactor>
       <Bulk>5.56</Bulk>
-      <WorkToMake>26000</WorkToMake>
+      <WorkToMake>27500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -1487,7 +1487,7 @@
     </weaponClasses>
     <costList>
       <Steel>45</Steel>
-      <ComponentIndustrial>3</ComponentIndustrial>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -1588,7 +1588,7 @@
       <ShotSpread>0.17</ShotSpread>
       <SwayFactor>1.10</SwayFactor>
       <Bulk>6.55</Bulk>
-      <WorkToMake>28500</WorkToMake>
+      <WorkToMake>30000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>SimpleGun</li>
@@ -1603,7 +1603,7 @@
     </weaponClasses>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -2264,7 +2264,7 @@
       <ShotSpread>0.14</ShotSpread>
       <SwayFactor>0.95</SwayFactor>
       <Bulk>5.59</Bulk>
-      <WorkToMake>32000</WorkToMake>
+      <WorkToMake>35500</WorkToMake>
     </statBases>
     <equippedStatOffsets>
       <HuntingStealth>0.5</HuntingStealth>
@@ -2282,7 +2282,7 @@
     </weaponClasses>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <Chemfuel>5</Chemfuel>
     </costList>
     <verbs>
@@ -3066,7 +3066,7 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>0.90</SwayFactor>
       <Bulk>5.60</Bulk>
-      <WorkToMake>29000</WorkToMake>
+      <WorkToMake>31500</WorkToMake>
     </statBases>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
@@ -3081,7 +3081,7 @@
     </weaponClasses>
     <costList>
       <Steel>40</Steel>
-      <ComponentIndustrial>5</ComponentIndustrial>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -3185,7 +3185,7 @@
       <ShotSpread>0.13</ShotSpread>
       <SwayFactor>0.96</SwayFactor>
       <Bulk>4.70</Bulk>
-      <WorkToMake>31500</WorkToMake>
+      <WorkToMake>35000</WorkToMake>
     </statBases>
     <weaponTags>
       <li>IndustrialGunAdvanced</li>
@@ -3202,7 +3202,7 @@
     <costList>
       <Steel>35</Steel>
       <Chemfuel>5</Chemfuel>
-      <ComponentIndustrial>6</ComponentIndustrial>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
