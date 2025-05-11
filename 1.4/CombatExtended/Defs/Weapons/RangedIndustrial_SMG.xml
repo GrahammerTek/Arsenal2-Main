@@ -7,7 +7,7 @@
     <label>Beretta 93R</label>
     <description>A micro-submachine gun. It is short-ranged, but very light in the hands. Its rate of fire tends to make up for its weakness.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BerettaM93R</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/BerettaM93R</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>

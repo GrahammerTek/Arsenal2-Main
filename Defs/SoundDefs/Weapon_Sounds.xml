@@ -528,6 +528,31 @@
     </subSounds>
   </SoundDef>
   <SoundDef>
+    <defName>HID_Shot_357Magnum_Bolt</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEK357Magnum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>35~35</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKBoltAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>20~20</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
     <defName>HID_Shot_357Magnum_Lever</defName>
     <context>MapOnly</context>
     <maxSimultaneous>1</maxSimultaneous>
@@ -751,7 +776,7 @@
             <clipPath>Shot_GTEK762mm</clipPath>
           </li>
         </grains>
-        <volumeRange>20~20</volumeRange>
+        <volumeRange>25~25</volumeRange>
         <sustainLoop>False</sustainLoop>
       </li>
     </subSounds>
@@ -783,7 +808,7 @@
             <clipPath>Shot_GTEK762mm</clipPath>
           </li>
         </grains>
-        <volumeRange>35~35</volumeRange>
+        <volumeRange>25~25</volumeRange>
         <sustainLoop>False</sustainLoop>
       </li>
       <li>
@@ -954,7 +979,7 @@
       </li>
     </subSounds>
   </SoundDef>
-  <!--Thunder Pistol-->
+  <!--Thunder Light-->
   <SoundDef>
     <defName>HID_Shot_ThunderPistol</defName>
     <context>MapOnly</context>
@@ -970,7 +995,7 @@
       </li>
     </subSounds>
   </SoundDef>
-  <!--Thunder Revolver-->
+  <!--Thunder Medium-->
   <SoundDef>
     <defName>HID_Shot_ThunderRevolver</defName>
     <context>MapOnly</context>
@@ -1011,7 +1036,6 @@
       </li>
     </subSounds>
   </SoundDef>
-  <!--Thunder Lever Gun-->
   <SoundDef>
     <defName>HID_Shot_ThunderLeverGun</defName>
     <context>MapOnly</context>
@@ -1024,6 +1048,46 @@
           </li>
         </grains>
         <volumeRange>15~15</volumeRange>
+      </li>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Sub_GTEKLeverAction</clipPath>
+          </li>
+        </grains>
+        <volumeRange>10~10</volumeRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <!--Thunder Big-->
+  <SoundDef>
+    <defName>HID_Shot_ThunderGigaGun</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderRifle</clipPath>
+          </li>
+        </grains>
+        <volumeRange>18~18</volumeRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>HID_Shot_ThunderGigaGun_Lever</defName>
+    <context>MapOnly</context>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Shot_GTEKThunderRifle</clipPath>
+          </li>
+        </grains>
+        <volumeRange>18~18</volumeRange>
       </li>
       <li>
         <grains>

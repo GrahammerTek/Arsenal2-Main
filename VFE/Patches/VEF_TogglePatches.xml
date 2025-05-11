@@ -16,6 +16,14 @@
     <label>[CE] Remove duplicate weapons from Combat Extended submods:</label>
     <operations>
       <!--CE Guns-->
+      <li Class="PatchOperationConditional">
+        <xpath>Defs/ThingDef[defName="CE_Gun_MiniFourteen"]</xpath>
+        <match Class="PatchOperationAttributeSet">
+          <xpath>Defs/ThingDef[defName="CE_Gun_MiniFourteen"]</xpath>
+          <attribute>Abstract</attribute>
+          <value>True</value>
+        </match>
+      </li>
       <!--CE Armory-->
       <li Class="PatchOperationConditional">
         <xpath>Defs/ThingDef[defName="CE_Gun_Deagke"]</xpath>

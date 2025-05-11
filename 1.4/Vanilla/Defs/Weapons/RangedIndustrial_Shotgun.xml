@@ -1762,10 +1762,10 @@
       </li>
     </tools>
   </ThingDef>
-  <!--M1014-->
+  <!--Benelli M1014-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_M1014Gun</defName>
-    <label>M1014</label>
+    <label>Benelli M1014</label>
     <description>A semi-automatic combat shotgun, it fires quickly between shots. Very lethal in close-quarters.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/M1014</texPath>
@@ -1783,23 +1783,23 @@
       <li>GTEK_M1014</li>
     </weaponTags>
     <statBases>
-      <WorkToMake>18500</WorkToMake>
-      <Mass>4</Mass>
-      <AccuracyTouch>0.80</AccuracyTouch>
-      <AccuracyShort>0.87</AccuracyShort>
-      <AccuracyMedium>0.77</AccuracyMedium>
-      <AccuracyLong>0.64</AccuracyLong>
+      <WorkToMake>21000</WorkToMake>
+      <Mass>4.09</Mass>
+      <AccuracyTouch>0.83</AccuracyTouch>
+      <AccuracyShort>0.90</AccuracyShort>
+      <AccuracyMedium>0.81</AccuracyMedium>
+      <AccuracyLong>0.67</AccuracyLong>
       <RangedWeapon_Cooldown>0.85</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>50</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Chemfuel>10</Chemfuel>
     </costList>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
       <skillRequirements>
-        <Crafting>6</Crafting>
+        <Crafting>7</Crafting>
       </skillRequirements>
     </recipeMaker>
     <verbs>
@@ -1807,8 +1807,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_Shotgun</defaultProjectile>
-        <warmupTime>0.9</warmupTime>
-        <range>15.9</range>
+        <warmupTime>0.8</warmupTime>
+        <range>19.9</range>
         <soundCast>HID_Shot_12Gauge_NoPump</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>

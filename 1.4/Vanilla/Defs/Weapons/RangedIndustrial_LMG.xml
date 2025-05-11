@@ -1,20 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=LMG=-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_338LapuaLMG</defName>
-    <label>LMG bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>25</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>
-      <speed>166</speed>
-    </projectile>
-  </ThingDef>
   <!--Ohio Ordnance REAPR-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_REAPR</defName>
