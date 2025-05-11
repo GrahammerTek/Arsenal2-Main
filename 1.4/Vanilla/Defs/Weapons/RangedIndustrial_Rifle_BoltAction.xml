@@ -1074,6 +1074,150 @@
       <li>GTEK_RemingtonM700_SPS_Tactical_Threaded</li>
     </weaponTags>
   </ThingDef>
+  <!--Ruger 77/44-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_Ruger77_44Gun</defName>
+    <label>Ruger 77/44</label>
+    <description>A lightweight bolt-action varmint rifle, available in many variants.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Ruger/Ruger77_44</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <possessionCount>1</possessionCount>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
+    <equippedDistanceOffset>0.21</equippedDistanceOffset>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>2.73</Mass>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.63</AccuracyLong>
+      <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
+      <WorkToMake>27000</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HIDBullet_44Magnum_HV</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>30.9</range>
+        <soundCast>HID_Shot_357Magnum_Bolt</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!--Ruger 77/357-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase">
+    <defName>HIDGun_Ruger77_357Gun</defName>
+    <label>Ruger 77/357</label>
+    <description>A lightweight bolt-action varmint rifle, available in many variants.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Ruger/Ruger77_357</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <possessionCount>1</possessionCount>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
+    <equippedDistanceOffset>0.21</equippedDistanceOffset>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>2.86</Mass>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.63</AccuracyLong>
+      <RangedWeapon_Cooldown>1.17</RangedWeapon_Cooldown>
+      <WorkToMake>24500</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>HIDBullet_357Magnum_HV</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>30.9</range>
+        <soundCast>HID_Shot_357Magnum_Bolt</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
   <!--SIG Cross-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_SIG_Cross</defName>

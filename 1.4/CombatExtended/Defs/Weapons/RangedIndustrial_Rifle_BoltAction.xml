@@ -1626,14 +1626,15 @@
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_Ruger77_44Gun</defName>
     <label>Ruger 77/44</label>
-    <description>An iconic bolt-action hunting rifle, available in many variants.</description>
+    <description>A lightweight bolt-action varmint rifle, available in many variants.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Ruger/Ruger77_44</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.45,1.45)</drawSize>
+      <drawSize>1.45</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
@@ -1736,14 +1737,15 @@
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_Ruger77_357Gun</defName>
     <label>Ruger 77/357</label>
-    <description>An iconic bolt-action hunting rifle, available in many variants.</description>
+    <description>A lightweight bolt-action varmint rifle, available in many variants.</description>
     <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Ruger/Ruger77_357</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.45,1.45)</drawSize>
+      <drawSize>1.45</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.6</generateCommonality>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>

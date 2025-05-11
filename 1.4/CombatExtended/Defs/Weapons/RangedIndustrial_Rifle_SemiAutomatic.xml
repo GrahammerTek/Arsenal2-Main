@@ -2222,7 +2222,7 @@
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_AndersonAM15Gun</defName>
     <label>Anderson AM-15</label>
-    <description>A fairly low-budget semi-automatic rifle.</description>
+    <description>A fairly low-budget semi-automatic rifle, fitted with a random assortment of attachments.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/AndersonAM15</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -3244,7 +3244,7 @@
       </li>
     </modExtensions>
   </ThingDef>
-  <!--H.C.A.R.-->
+  <!--HCAR-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_HCAR</defName>
     <label>HCAR</label>

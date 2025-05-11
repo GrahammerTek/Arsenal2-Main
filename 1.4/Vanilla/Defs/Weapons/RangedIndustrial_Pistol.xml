@@ -1,61 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=REVOLVER=-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_454Casull</defName>
-    <label>revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>15</damageAmountBase>
-      <stoppingPower>1.5</stoppingPower>
-      <speed>60</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_45Colt</defName>
-    <label>revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>10</damageAmountBase>
-      <stoppingPower>0.75</stoppingPower>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_38Special</defName>
-    <label>revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
-      <speed>50</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_357Magnum</defName>
-    <label>revolver bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>11</damageAmountBase>
-      <stoppingPower>1.0</stoppingPower>
-      <speed>60</speed>
-    </projectile>
-  </ThingDef>
   <!--Ruger Super Redhawk-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_RugerSuperRedhawk</defName>
@@ -1064,61 +1009,6 @@
     </tools>
   </ThingDef>
   <!--=PISTOL=-->
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_57mm</defName>
-    <label>autopistol bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>8</damageAmountBase>
-      <stoppingPower>0.45</stoppingPower>
-      <armorPenetrationBase>0.18</armorPenetrationBase>
-      <speed>70</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_22lr</defName>
-    <label>autopistol bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>6</damageAmountBase>
-      <speed>55</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_9x19mm_Slow</defName>
-    <label>autopistol bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>9</damageAmountBase>
-      <armorPenetrationBase>0.15</armorPenetrationBase>
-      <speed>65</speed>
-    </projectile>
-  </ThingDef>
-  <ThingDef ParentName="BaseBullet">
-    <defName>HIDBullet_10mmAuto</defName>
-    <label>autopistol bullet</label>
-    <graphicData>
-      <texPath>Things/Projectile/Bullet_Small</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <projectile>
-      <damageDef>Bullet</damageDef>
-      <damageAmountBase>13</damageAmountBase>
-      <speed>65</speed>
-    </projectile>
-  </ThingDef>
   <!--Beretta M9A1-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_BerettaM9Gun</defName>
