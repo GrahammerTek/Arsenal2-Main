@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!--=LEVER-ACTION RIFLE=-->
-  <!--Marlin Model 336-->
+  <!--Marlin Model 336 Classic-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_Marlin336Model</defName>
-    <label>Marlin 336</label>
+    <label>Marlin Model 336 Classic</label>
     <description>A powerful lever-action repeater rifle, chambered for .30-30 Winchester cartridges.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Marlin336</texPath>
@@ -76,7 +76,7 @@
   <!--Marlin Model 336 Dark-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_Marlin336Model_Dark</defName>
-    <label>Marlin 336 Dark</label>
+    <label>Marlin Model 336 Dark</label>
     <description>A powerful lever-action repeater rifle, chambered for .30-30 Winchester cartridges. Its improved design has made it much lighter and capable of accepting a red dot sight.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/Marlin336_Dark</texPath>

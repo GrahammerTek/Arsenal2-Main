@@ -241,7 +241,7 @@
     <label>Zastava M76</label>
     <description>An ancient pattern semi-automatic DMR, fitted with a scope.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZM76</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZM76</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
@@ -353,7 +353,7 @@
     <label>Zastava ZPAP M70</label>
     <description>An ancient pattern semi-automatic rifle, generally considered to be simple and reliable. Even now, it remains the most widespread firearm platform ever made. Created for the civilian market.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZPAPM70B1</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZPAPM70B1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -456,7 +456,7 @@
     <label>Zastava ZPAP M70UF</label>
     <description>An ancient pattern semi-automatic rifle, generally considered to be simple and reliable. Even now, it remains the most widespread firearm platform ever made. Has a folding stock for bulk reduction. Created for the civilian market.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZPAPM70AB2</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZPAPM70AB2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -1323,13 +1323,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.2,0.0</DrawOffset>
+        <DrawOffset>0.16,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalsh</def>
         <drawSize>(1,1)</drawSize>
         <offsets>
-          <li>(0.93,0.05)</li>
+          <li>(0.89,0.05)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -1557,10 +1557,10 @@
       </li>
     </modExtensions>
   </ThingDef>
-  <!--AR-15-->
+  <!--Colt AR-15A4 MSR-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_AR15Standard</defName>
-    <label>AR-15</label>
+    <label>Colt AR-15A4 MSR</label>
     <description>A semi-automatic rifle, created for the civilian market.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/AR15</texPath>
@@ -1765,13 +1765,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1,1)</drawSize>
         <offsets>
-          <li>(0.8,0.01)</li>
+          <li>(0.77,0.01)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -1878,13 +1878,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1,1)</drawSize>
         <offsets>
-          <li>(0.8,0.01)</li>
+          <li>(0.77,0.01)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -1990,13 +1990,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1,1)</drawSize>
         <offsets>
-          <li>(0.8,0.01)</li>
+          <li>(0.77,0.01)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -2099,13 +2099,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1,1)</drawSize>
         <offsets>
-          <li>(0.8,0.01)</li>
+          <li>(0.77,0.01)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -2207,7 +2207,124 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
+      </li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalshThree</def>
+        <drawSize>(1,1)</drawSize>
+        <offsets>
+          <li>(0.77,0.01)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!--Anderson AM-15-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_AndersonAM15Gun</defName>
+    <label>Anderson AM-15</label>
+    <description>A fairly low-budget semi-automatic rifle.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/AndersonAM15</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.8</generateCommonality>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite Inherit="false"></researchPrerequisite>
+      <researchPrerequisites>
+        <li>PrecisionRifling</li>
+        <li>CE_SimpleNV</li>
+      </researchPrerequisites>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+      <displayPriority>420</displayPriority>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>27000</WorkToMake>
+      <Mass>3.97</Mass>
+      <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+      <SightsEfficiency>2.12</SightsEfficiency>
+      <ShotSpread>0.09</ShotSpread>
+      <SwayFactor>1.32</SwayFactor>
+      <Bulk>9.26</Bulk>
+    </statBases>
+    <equippedStatOffsets>
+      <AimingDelayFactor>-0.10</AimingDelayFactor>
+    </equippedStatOffsets>
+    <weaponTags>
+      <li>CE_AI_AR</li>
+      <li>Bipod_Rifle</li>
+      <li>CivilDefenseRifle</li>
+    </weaponTags>
+    <costList>
+      <Steel>55</Steel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.36</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_556x45mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.2</warmupTime>
+        <range>59</range>
+        <soundCast>HID_Shot_556mmNATO</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>30</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_556x45mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawOffset>0.16,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
@@ -2458,6 +2575,346 @@
       </li>
     </modExtensions>
   </ThingDef>
+  <!--Ruger SFAR 308 16"-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_RugerSFAR308_16in</defName>
+    <label>Ruger SFAR 308 16"</label>
+    <description>A compact, light-recoiling, semi-automatic rifle firing a full-sized cartridge. Optimized for close-range shooting.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/RugerSFAR308_16in</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.305</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>28500</WorkToMake>
+      <Mass>3.61</Mass>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+      <SightsEfficiency>2.36</SightsEfficiency>
+      <ShotSpread>0.09</ShotSpread>
+      <SwayFactor>1.37</SwayFactor>
+      <Bulk>8.63</Bulk>
+    </statBases>
+    <weaponTags>
+      <li>SniperRifle</li>
+      <li>CE_AI_SR</li>
+      <li>CivilDefenseRifle</li>
+    </weaponTags>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.39</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>68</range>
+        <soundCast>HID_Shot_FAL</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>20</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawOffset>0.12,0.0</DrawOffset>
+      </li>
+      <li Class="RunAndGun.DefModExtension_SettingDefaults" MayRequire="roolo.RunAndGun">
+        <weaponForbidden>true</weaponForbidden>
+      </li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalshThree</def>
+        <drawSize>(1.5,1)</drawSize>
+        <offsets>
+          <li>(0.78,0.01)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!--Ruger SFAR 308 20"-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase">
+    <defName>HIDGun_RugerSFAR308_20in</defName>
+    <label>Ruger SFAR 308 20"</label>
+    <description>A light-recoiling, semi-automatic rifle firing a full-sized cartridge. Optimized for long-range shooting.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/RugerSFAR308_20in</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.75</generateCommonality>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>33500</WorkToMake>
+      <Mass>4.48</Mass>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+      <SightsEfficiency>2.60</SightsEfficiency>
+      <ShotSpread>0.07</ShotSpread>
+      <SwayFactor>1.12</SwayFactor>
+      <Bulk>10.65</Bulk>
+    </statBases>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+      <li>CE_AI_SR</li>
+      <li>Bipod_DMR</li>
+      <li>CivilDefenseRifle</li>
+    </weaponTags>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+      <Chemfuel>5</Chemfuel>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.23</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile>
+        <warmupTime>1.6</warmupTime>
+        <range>75</range>
+        <soundCast>HID_Shot_FAL</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>20</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_762x51mmNATO</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawOffset>0.16,0.0</DrawOffset>
+      </li>
+      <li Class="RunAndGun.DefModExtension_SettingDefaults" MayRequire="roolo.RunAndGun">
+        <weaponForbidden>true</weaponForbidden>
+      </li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalshThree</def>
+        <drawSize>(1.5,1)</drawSize>
+        <offsets>
+          <li>(0.86,0.01)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!--Ruger SFAR 6.5 20"-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_RugerSFAR65_20in</defName>
+    <label>Ruger SFAR 6.5 20"</label>
+    <description>A light-recoiling, semi-automatic precision rifle firing a long-ranged cartridge. Very accurate.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/RugerSFAR65_20in</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.4</generateCommonality>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>36500</WorkToMake>
+      <Mass>5.07</Mass>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+      <SightsEfficiency>2.90</SightsEfficiency>
+      <ShotSpread>0.07</ShotSpread>
+      <SwayFactor>1.17</SwayFactor>
+      <Bulk>11.48</Bulk>
+    </statBases>
+    <weaponTags Inherit="False">
+      <li>SniperRifle</li>
+      <li>CE_AI_SR</li>
+      <li>Bipod_DMR</li>
+      <li>CivilDefenseRifle</li>
+    </weaponTags>
+    <costList>
+      <Steel>60</Steel>
+      <ComponentIndustrial>7</ComponentIndustrial>
+      <Chemfuel>10</Chemfuel>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.13</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_65x48mmCreedmoor_FMJ</defaultProjectile>
+        <warmupTime>1.85</warmupTime>
+        <range>86</range>
+        <soundCast>HID_Shot_FAL</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>20</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_65x48mmCreedmoor</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiUseBurstMode>FALSE</aiUseBurstMode>
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawOffset>0.16,0.0</DrawOffset>
+      </li>
+      <li Class="RunAndGun.DefModExtension_SettingDefaults" MayRequire="roolo.RunAndGun">
+        <weaponForbidden>true</weaponForbidden>
+      </li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalshThree</def>
+        <drawSize>(1.1,1)</drawSize>
+        <offsets>
+          <li>(0.88,0.01)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
   <!--Alexander Arms .50 Beowolf AR-15-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_AR15Beowulf</defName>
@@ -2505,8 +2962,8 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_50Beowulf_FMJ</defaultProjectile>
         <warmupTime>1.2</warmupTime>
-        <range>31</range>
-        <soundCast>HID_Shot_3006Springfield_Auto</soundCast>
+        <range>33</range>
+        <soundCast>HID_Shot_ThunderGigaGun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
@@ -2556,17 +3013,127 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.15,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1.5,1.2)</drawSize>
         <offsets>
-          <li>(0.8,0)</li>
+          <li>(0.77,0)</li>
         </offsets>
       </li>
     </modExtensions>
   </ThingDef>
+  <!--Pheonix Weaponry Christine-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_AR10Christine</defName>
+    <label>Pheonix Weaponry Christine</label>
+    <description>Christine is a rare custom-built AR-10 configuration chambered for the powerful .45/70 cartridge. She loads from standard SR-25 magazines, capable of holding up to 9 rounds, and she is fitted with an LPVO scope. Her muzzle brake helps to reduce recoil.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/PheonixWeaponry_Christine</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.305,1.305)</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.1</generateCommonality>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <WorkToMake>30000</WorkToMake>
+      <Mass>4.94</Mass>
+      <RangedWeapon_Cooldown>0.37</RangedWeapon_Cooldown>
+      <SightsEfficiency>2.36</SightsEfficiency>
+      <ShotSpread>0.08</ShotSpread>
+      <SwayFactor>1.59</SwayFactor>
+      <Bulk>9.59</Bulk>
+    </statBases>
+    <weaponTags>
+      <li>CE_AI_AR</li>
+      <li>CivilDefenseRifle</li>
+    </weaponTags>
+    <costList>
+      <Steel>60</Steel>
+      <Chemfuel>5</Chemfuel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+    </costList>
+    <verbs>
+      <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>1.40</recoilAmount>
+        <verbClass>CombatExtended.Verb_ShootCE</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_4570Gov_FMJ</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>48</range>
+        <soundCast>HID_Shot_ThunderGigaGun</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>12</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li Class="CombatExtended.ToolCE">
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <chanceFactor>1.5</chanceFactor>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Stock</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>5</power>
+        <cooldownTime>2.02</cooldownTime>
+        <armorPenetrationBlunt>1.630</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup>
+      </li>
+      <li Class="CombatExtended.ToolCE">
+        <label>muzzle</label>
+        <capacities>
+          <li>Poke</li>
+        </capacities>
+        <power>8</power>
+        <cooldownTime>1.55</cooldownTime>
+        <armorPenetrationBlunt>2.755</armorPenetrationBlunt>
+        <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
+      </li>
+    </tools>
+    <comps>
+      <li Class="CombatExtended.CompProperties_AmmoUser">
+        <magazineSize>9</magazineSize>
+        <reloadTime>4</reloadTime>
+        <ammoSet>AmmoSet_4570Gov</ammoSet>
+      </li>
+      <li Class="CombatExtended.CompProperties_FireModes">
+        <aiAimMode>AimedShot</aiAimMode>
+      </li>
+    </comps>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawOffset>0.12,0.0</DrawOffset>
+      </li>
+      <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
+        <def>MF_StandardMuzzleFalshThree</def>
+        <drawSize>(1.5,1.35)</drawSize>
+        <offsets>
+          <li>(0.82,0)</li>
+        </offsets>
+      </li>
+    </modExtensions>
+  </ThingDef>
+  <!--Pheonix Weaponry Kelly *UNUSED*-->
+  <!--<ThingDef ParentName="HIDGun_MainWeaponBase_Makeable"><defName>HIDGun_AR10Kelly</defName><label>Pheonix Weaponry Kelly</label><description>A custom-built AR-10 configuration which features an integrated suppressor and is fitted with an LPVO scope.</description><graphicData><texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/PheonixWeaponry_Kelly</texPath><graphicClass>Graphic_Single</graphicClass><drawSize>(1.305,1.305)</drawSize></graphicData><soundInteract>Interact_Rifle</soundInteract><generateCommonality>0.08</generateCommonality><recipeMaker IsNull="True"><researchPrerequisite>PrecisionRifling</researchPrerequisite><skillRequirements><Crafting>6</Crafting></skillRequirements></recipeMaker><thingSetMakerTags><li>RewardStandardQualitySuper</li></thingSetMakerTags><statBases><WorkToMake>26500</WorkToMake><Mass>5.58</Mass><RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown><SightsEfficiency>2.36</SightsEfficiency><ShotSpread>0.07</ShotSpread><SwayFactor>1.64</SwayFactor><Bulk>10.22</Bulk></statBases><equippedStatOffsets><HuntingStealth>0.5</HuntingStealth></equippedStatOffsets><weaponTags><li>CE_AI_AR</li><li>CivilDefenseRifle</li></weaponTags><costList><Steel>70</Steel><ComponentIndustrial>5</ComponentIndustrial></costList><verbs><li Class="CombatExtended.VerbPropertiesCE"><recoilAmount>1.27</recoilAmount><verbClass>CombatExtended.Verb_ShootCE</verbClass><hasStandardCommand>true</hasStandardCommand><defaultProjectile>Bullet_762x51mmNATO_FMJ</defaultProjectile><warmupTime>1.4</warmupTime><range>75</range><soundCast>HID_Shot_FAL_suppressed</soundCast><muzzleFlashScale>3</muzzleFlashScale></li></verbs><tools><li Class="CombatExtended.ToolCE"><label>stock</label><capacities><li>Blunt</li></capacities><power>8</power><cooldownTime>1.55</cooldownTime><chanceFactor>1.5</chanceFactor><armorPenetrationBlunt>2.755</armorPenetrationBlunt><linkedBodyPartsGroup>Stock</linkedBodyPartsGroup></li><li Class="CombatExtended.ToolCE"><label>barrel</label><capacities><li>Blunt</li></capacities><power>5</power><cooldownTime>2.02</cooldownTime><armorPenetrationBlunt>1.630</armorPenetrationBlunt><linkedBodyPartsGroup>Barrel</linkedBodyPartsGroup></li><li Class="CombatExtended.ToolCE"><label>muzzle</label><capacities><li>Poke</li></capacities><power>8</power><cooldownTime>1.55</cooldownTime><armorPenetrationBlunt>2.755</armorPenetrationBlunt><linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup></li></tools><comps><li Class="CombatExtended.CompProperties_AmmoUser"><magazineSize>20</magazineSize><reloadTime>4</reloadTime><ammoSet>AmmoSet_762x51mmNATO</ammoSet></li><li Class="CombatExtended.CompProperties_FireModes"><aiAimMode>AimedShot</aiAimMode></li></comps><modExtensions><li Class="CombatExtended.GunDrawExtension"><DrawOffset>0.12,0.0</DrawOffset></li></modExtensions></ThingDef>-->
   <!--GQ Armory Paladin-->
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_GQPaladin</defName>
@@ -2688,7 +3255,7 @@
       <drawSize>(1.45,1.45)</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
-    <generateCommonality>0.8</generateCommonality>
+    <generateCommonality>0.6</generateCommonality>
     <recipeMaker IsNull="True">
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
@@ -2707,7 +3274,7 @@
       <SwayFactor>1.20</SwayFactor>
       <Bulk>9.88</Bulk>
     </statBases>
-    <weaponTags>
+    <weaponTags Inherit="False">
       <li>SniperRifle</li>
       <li>CE_AI_SR</li>
       <li>Bipod_DMR</li>
@@ -2725,7 +3292,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_3006Springfield_FMJ</defaultProjectile>
         <warmupTime>1.6</warmupTime>
-        <range>75</range>
+        <range>68</range>
         <soundCast>HID_Shot_3006Springfield_Auto</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -2777,13 +3344,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.2,0.0</DrawOffset>
+        <DrawOffset>0.16,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalsh</def>
         <drawSize>(1.5,1.2)</drawSize>
         <offsets>
-          <li>(0.88,0)</li>
+          <li>(0.84,0)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -2894,13 +3461,13 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.2,0.0</DrawOffset>
+        <DrawOffset>0.16,0.0</DrawOffset>
       </li>
       <li Class="MuzzleFlash.MuzzleFlashProps" MayRequire="IssacZhuang.MuzzleFlash">
         <def>MF_StandardMuzzleFalsh</def>
         <drawSize>(1.5,1.2)</drawSize>
         <offsets>
-          <li>(0.88,0)</li>
+          <li>(0.84,0)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -3228,7 +3795,7 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.225,0.0</DrawOffset>
+        <DrawOffset>0.16,0.0</DrawOffset>
       </li>
       <li Class="RunAndGun.DefModExtension_SettingDefaults" MayRequire="roolo.RunAndGun">
         <weaponForbidden>true</weaponForbidden>
@@ -3237,7 +3804,7 @@
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1.5,1)</drawSize>
         <offsets>
-          <li>(0.98,0.05)</li>
+          <li>(0.92,0.05)</li>
         </offsets>
       </li>
     </modExtensions>
@@ -3344,7 +3911,7 @@
     </comps>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawOffset>0.16,0.0</DrawOffset>
+        <DrawOffset>0.12,0.0</DrawOffset>
       </li>
       <li Class="RunAndGun.DefModExtension_SettingDefaults" MayRequire="roolo.RunAndGun">
         <weaponForbidden>true</weaponForbidden>
@@ -3353,7 +3920,7 @@
         <def>MF_StandardMuzzleFalshThree</def>
         <drawSize>(1.5,1)</drawSize>
         <offsets>
-          <li>(0.81,0.05)</li>
+          <li>(0.77,0.05)</li>
         </offsets>
       </li>
     </modExtensions>

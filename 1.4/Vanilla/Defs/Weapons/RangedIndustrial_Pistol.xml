@@ -1125,7 +1125,7 @@
     <label>Beretta M9A1</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BerettaM9A1</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/BerettaM9A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1198,7 +1198,7 @@
     <label>Beretta 92FS</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Beretta92FS</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/Beretta92FS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1270,7 +1270,7 @@
     <label>Beretta 92FS Inox</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Beretta92FS_Inox</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/Beretta92FS_Inox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1344,7 +1344,7 @@
     <label>Beretta M9A3</label>
     <description>An ancient pattern blowback-operated self-loading pistol. It lacks stopping power and range, but is quick to fire. Fitted with a suppressor.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BerettaM9A3</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/BerettaM9A3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>

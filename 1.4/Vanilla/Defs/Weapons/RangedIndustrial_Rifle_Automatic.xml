@@ -1779,7 +1779,7 @@
     <label>Zastava M70B1</label>
     <description>An ancient pattern assault rifle, generally considered to be simple and reliable.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZM70B1</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZM70B1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -1852,7 +1852,7 @@
     <label>Zastava M70AB2</label>
     <description>An ancient pattern assault rifle, generally considered to be simple and reliable. Has a folding stock for bulk reduction.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZM70AB2</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZM70AB2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -3046,7 +3046,7 @@
     <label>Zastava M77 B1</label>
     <description>A rifle based on the AK platform but chambered for a full-sized cartridge.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZM77</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZM77</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>

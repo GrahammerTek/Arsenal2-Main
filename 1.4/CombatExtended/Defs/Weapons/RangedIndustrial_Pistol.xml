@@ -963,7 +963,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>6</magazineSize>
         <reloadTime>4.6</reloadTime>
-        <ammoSet>AmmoSet_44Magnum</ammoSet>
+        <ammoSet>AmmoSet_44Magnum_Revolver</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -1668,7 +1668,7 @@
     <label>Beretta M9A1</label>
     <description>Your typical 9mm duty pistol. Its steel-frame construction helps reduce some recoil.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BerettaM9A1</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/BerettaM9A1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1769,7 +1769,7 @@
     <label>Beretta 92FS</label>
     <description>Your typical 9mm duty pistol. Its steel-frame construction helps reduce some recoil.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Beretta92FS</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/Beretta92FS</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1869,7 +1869,7 @@
     <label>Beretta 92FS Inox</label>
     <description>Your typical 9mm duty pistol. Its steel-frame construction helps reduce some recoil.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/Beretta92FS_Inox</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/Beretta92FS_Inox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>
@@ -1971,7 +1971,7 @@
     <label>Beretta M9A3</label>
     <description>Your typical 9mm duty pistol. Its steel-frame construction helps reduce some recoil. Fitted with a suppressor. Comes equipped with reflex and laser sights, and a compensator.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/BerettaM9A3</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Beretta/BerettaM9A3</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(0.9,0.9)</drawSize>
     </graphicData>

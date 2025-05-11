@@ -159,7 +159,7 @@
     <label>Zastava M76</label>
     <description>An ancient pattern semi-automatic DMR, fitted with a scope.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZM76</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZM76</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.5,1.5)</drawSize>
     </graphicData>
@@ -233,7 +233,7 @@
     <label>Zastava ZPAP M70</label>
     <description>An ancient pattern semi-automatic rifle, generally considered to be simple and reliable. Even now, it remains the most widespread firearm platform ever made. Created for the civilian market.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZPAPM70B1</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZPAPM70B1</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -303,7 +303,7 @@
     <label>Zastava ZPAP M70UF</label>
     <description>An ancient pattern semi-automatic rifle, generally considered to be simple and reliable. Even now, it remains the most widespread firearm platform ever made. Has a folding stock for bulk reduction. Created for the civilian market.</description>
     <graphicData>
-      <texPath>Things/Item/Equipment/WeaponRanged/ZPAPM70AB2</texPath>
+      <texPath>Things/Item/Equipment/WeaponRanged/Zastava/ZPAPM70AB2</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.25,1.25)</drawSize>
     </graphicData>
@@ -1607,7 +1607,7 @@
         <defaultProjectile>Bullet_SniperRifle</defaultProjectile>
         <warmupTime>2.25</warmupTime>
         <range>30.9</range>
-        <soundCast>HID_Shot_3006Springfield_Auto</soundCast>
+        <soundCast>HID_Shot_ThunderGigaGun</soundCast>
         <soundCastTail>GunTail_Heavy</soundCastTail>
         <muzzleFlashScale>6</muzzleFlashScale>
       </li>
