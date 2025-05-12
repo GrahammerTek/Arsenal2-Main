@@ -497,11 +497,11 @@
     <statBases>
       <WorkToMake>21500</WorkToMake>
       <Mass>3.71</Mass>
-      <AccuracyTouch>0.65</AccuracyTouch>
-      <AccuracyShort>0.80</AccuracyShort>
-      <AccuracyMedium>0.90</AccuracyMedium>
-      <AccuracyLong>0.88</AccuracyLong>
-      <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.63</AccuracyLong>
+      <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
     </statBases>
     <costList>
       <Steel>50</Steel>
@@ -513,8 +513,8 @@
         <verbClass>Verb_Shoot</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
-        <warmupTime>1.7</warmupTime>
-        <range>36.9</range>
+        <warmupTime>1.4</warmupTime>
+        <range>30.9</range>
         <soundCast>HID_Shot_556mmNATO_Bolt</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
@@ -1086,13 +1086,13 @@
     </graphicData>
     <possessionCount>1</possessionCount>
     <soundInteract>Interact_Rifle</soundInteract>
-    <generateCommonality>0.6</generateCommonality>
+    <generateCommonality>0.4</generateCommonality>
     <equippedDistanceOffset>0.21</equippedDistanceOffset>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
     <recipeMaker IsNull="True">
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -1158,13 +1158,13 @@
     </graphicData>
     <possessionCount>1</possessionCount>
     <soundInteract>Interact_Rifle</soundInteract>
-    <generateCommonality>0.6</generateCommonality>
+    <generateCommonality>0.4</generateCommonality>
     <equippedDistanceOffset>0.21</equippedDistanceOffset>
     <weaponClasses>
       <li>LongShots</li>
     </weaponClasses>
     <recipeMaker IsNull="True">
-      <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
       <skillRequirements>
         <Crafting>6</Crafting>
       </skillRequirements>
@@ -1194,6 +1194,78 @@
         <warmupTime>1.4</warmupTime>
         <range>30.9</range>
         <soundCast>HID_Shot_357Magnum_Bolt</soundCast>
+        <soundCastTail>GunTail_Medium</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>stock</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>barrel</label>
+        <capacities>
+          <li>Blunt</li>
+          <li>Poke</li>
+        </capacities>
+        <power>9</power>
+        <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+  </ThingDef>
+  <!--Ruger 77/22-->
+  <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
+    <defName>HIDGun_Ruger77_22Gun</defName>
+    <label>Ruger 77/22</label>
+    <description>A lightweight bolt-action varmint rifle, available in many variants.</description>
+    <graphicData>
+      <texPath>Things/Item/Equipment/WeaponRanged/Ruger/Ruger77_22</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>1.45</drawSize>
+    </graphicData>
+    <possessionCount>1</possessionCount>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <generateCommonality>0.33</generateCommonality>
+    <equippedDistanceOffset>0.21</equippedDistanceOffset>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>
+    <recipeMaker IsNull="True">
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
+    <thingSetMakerTags>
+      <li>RewardStandardQualitySuper</li>
+    </thingSetMakerTags>
+    <statBases>
+      <Mass>3.31</Mass>
+      <AccuracyTouch>0.88</AccuracyTouch>
+      <AccuracyShort>0.88</AccuracyShort>
+      <AccuracyMedium>0.82</AccuracyMedium>
+      <AccuracyLong>0.63</AccuracyLong>
+      <RangedWeapon_Cooldown>1.16</RangedWeapon_Cooldown>
+      <WorkToMake>21500</WorkToMake>
+    </statBases>
+    <costList>
+      <Steel>50</Steel>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <WoodLog>10</WoodLog>
+    </costList>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>Bullet_AssaultRifle</defaultProjectile>
+        <warmupTime>1.4</warmupTime>
+        <range>30.9</range>
+        <soundCast>HID_Shot_556mmNATO_Bolt</soundCast>
         <soundCastTail>GunTail_Medium</soundCastTail>
         <muzzleFlashScale>9</muzzleFlashScale>
       </li>

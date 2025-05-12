@@ -1954,7 +1954,7 @@
   <ThingDef ParentName="HIDGun_MainWeaponBase_Makeable">
     <defName>HIDGun_AR10Christine</defName>
     <label>Pheonix Weaponry Christine</label>
-    <description>Christine is a rare custom-built AR-10 configuration chambered for the powerful .45/70 cartridge. She loads from standard SR-25 magazines, capable of holding up to 9 rounds, and she is fitted with an LPVO scope. Her muzzle brake helps to reduce recoil.</description>
+    <description>Christine is a rare custom-built AR-10 configuration chambered for the powerful .45-70 cartridge. She loads from standard SR-25 magazines, capable of holding up to 9 rounds, and she is fitted with an LPVO scope. Her muzzle brake helps to reduce recoil.</description>
     <graphicData>
       <texPath>Things/Item/Equipment/WeaponRanged/AR15_Customs/PheonixWeaponry_Christine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
